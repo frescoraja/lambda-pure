@@ -328,7 +328,7 @@ prompt_pure_async_tasks() {
 prompt_pure_async_callback() {
 	local job=$1
 	local output=$3
-	local exec_time=$4
+	local exec_time="0$4"
 
 	case "${job}" in
 		prompt_pure_async_git_dirty)
