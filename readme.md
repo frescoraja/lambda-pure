@@ -115,6 +115,10 @@ Defines the git dirty symbol. The default value is `×`.
 
 Set `PURE_NODE_ENABLED=0` to not display the NodeJS version.
 
+### `PURE_NODE_SYMBOL`
+
+Defines the NodeJS symbol. The default value is '⬢'.
+
 ## Example
 
 ```sh
